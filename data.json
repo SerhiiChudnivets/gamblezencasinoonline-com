@@ -11,7 +11,7 @@
   "content": null,
   "pages": [],
   "faq_schema": null,
-  "hero_title": "Casino",
+  "hero_title": "Casinos",
   "hero_subtitle": null,
   "hero_badge": null,
   "cta_text": null,
@@ -60,8 +60,8 @@
   },
   "header_menu": [],
   "footer_menu": [],
-  "_generated_at": "2026-03-30T08:47:10.404Z",
+  "_generated_at": "2026-03-30T08:49:52.459Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-03-30T08:47:10.916Z",
-  "_deploy_trigger": "6qnh4"
+  "_last_deploy": "2026-03-30T08:49:52.960Z",
+  "_deploy_trigger": "cl7csn"
 }
