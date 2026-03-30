@@ -72,14 +72,14 @@
       }
     ]
   },
-  "hero_title": "100% up to CA$7000",
-  "hero_subtitle": "100% up to CA$7000",
+  "hero_title": null,
+  "hero_subtitle": "500% up to C$5450 + 350 FS",
   "hero_badge": "Welcome Bonus",
   "cta_text": "Play now",
   "accent_color": "#d4af37",
-  "tagline": "ваваы",
-  "features_list": "123123123",
-  "footer_text": "dfgvdsfbdsfb",
+  "tagline": null,
+  "features_list": null,
+  "footer_text": null,
   "popup_text": "Get bonus",
   "gpt_prompt": null,
   "subdomains": null,
@@ -96,11 +96,124 @@
   "slots_title": null,
   "bonus_title": "100% up to CA$7000",
   "get_bonus_btn_text": "Get Bonus",
-  "color_main_btn_text": "#fb6f6f",
+  "color_main_btn_text": "#0aede6",
   "redirect_link": null,
-  "logo": null,
-  "popup_logo": null,
-  "main_background_img": null,
+  "logo": {
+    "id": 24,
+    "name": "logo.webp",
+    "url": "/uploads/logo_85c413bcdf.webp",
+    "formats": null
+  },
+  "popup_logo": {
+    "id": 25,
+    "name": "banner_1600.webp",
+    "url": "/uploads/banner_1600_4e269d89f4.webp",
+    "formats": {
+      "large": {
+        "ext": ".webp",
+        "url": "/uploads/large_banner_1600_4e269d89f4.webp",
+        "hash": "large_banner_1600_4e269d89f4",
+        "mime": "image/webp",
+        "name": "large_banner_1600.webp",
+        "path": null,
+        "size": 29.36,
+        "width": 1000,
+        "height": 417,
+        "sizeInBytes": 29356
+      },
+      "small": {
+        "ext": ".webp",
+        "url": "/uploads/small_banner_1600_4e269d89f4.webp",
+        "hash": "small_banner_1600_4e269d89f4",
+        "mime": "image/webp",
+        "name": "small_banner_1600.webp",
+        "path": null,
+        "size": 12.85,
+        "width": 500,
+        "height": 208,
+        "sizeInBytes": 12852
+      },
+      "medium": {
+        "ext": ".webp",
+        "url": "/uploads/medium_banner_1600_4e269d89f4.webp",
+        "hash": "medium_banner_1600_4e269d89f4",
+        "mime": "image/webp",
+        "name": "medium_banner_1600.webp",
+        "path": null,
+        "size": 21,
+        "width": 750,
+        "height": 312,
+        "sizeInBytes": 21002
+      },
+      "thumbnail": {
+        "ext": ".webp",
+        "url": "/uploads/thumbnail_banner_1600_4e269d89f4.webp",
+        "hash": "thumbnail_banner_1600_4e269d89f4",
+        "mime": "image/webp",
+        "name": "thumbnail_banner_1600.webp",
+        "path": null,
+        "size": 5.84,
+        "width": 245,
+        "height": 102,
+        "sizeInBytes": 5840
+      }
+    }
+  },
+  "main_background_img": {
+    "id": 25,
+    "name": "banner_1600.webp",
+    "url": "/uploads/banner_1600_4e269d89f4.webp",
+    "formats": {
+      "large": {
+        "ext": ".webp",
+        "url": "/uploads/large_banner_1600_4e269d89f4.webp",
+        "hash": "large_banner_1600_4e269d89f4",
+        "mime": "image/webp",
+        "name": "large_banner_1600.webp",
+        "path": null,
+        "size": 29.36,
+        "width": 1000,
+        "height": 417,
+        "sizeInBytes": 29356
+      },
+      "small": {
+        "ext": ".webp",
+        "url": "/uploads/small_banner_1600_4e269d89f4.webp",
+        "hash": "small_banner_1600_4e269d89f4",
+        "mime": "image/webp",
+        "name": "small_banner_1600.webp",
+        "path": null,
+        "size": 12.85,
+        "width": 500,
+        "height": 208,
+        "sizeInBytes": 12852
+      },
+      "medium": {
+        "ext": ".webp",
+        "url": "/uploads/medium_banner_1600_4e269d89f4.webp",
+        "hash": "medium_banner_1600_4e269d89f4",
+        "mime": "image/webp",
+        "name": "medium_banner_1600.webp",
+        "path": null,
+        "size": 21,
+        "width": 750,
+        "height": 312,
+        "sizeInBytes": 21002
+      },
+      "thumbnail": {
+        "ext": ".webp",
+        "url": "/uploads/thumbnail_banner_1600_4e269d89f4.webp",
+        "hash": "thumbnail_banner_1600_4e269d89f4",
+        "mime": "image/webp",
+        "name": "thumbnail_banner_1600.webp",
+        "path": null,
+        "size": 5.84,
+        "width": 245,
+        "height": 102,
+        "sizeInBytes": 5840
+      }
+    }
+  },
   "Slots": [],
   "Bonuses": [],
   "FAQ": [
@@ -157,8 +270,8 @@
   },
   "header_menu": [],
   "footer_menu": [],
-  "_generated_at": "2026-03-30T12:04:44.467Z",
+  "_generated_at": "2026-03-30T12:12:24.393Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-03-30T12:04:45.002Z",
-  "_deploy_trigger": "u5q08u"
+  "_last_deploy": "2026-03-30T12:12:24.933Z",
+  "_deploy_trigger": "1dpeib"
 }
