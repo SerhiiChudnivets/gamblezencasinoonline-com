@@ -1,7 +1,7 @@
 {
   "name": "gamblezencasinoonline.com",
   "site_name": "Gamblezen Casino",
-  "html_head": null,
+  "html_head": "<meta name=\"description\" content=\"Join Gamblezen Casino! Enjoy 7,500+ games, live dealers, fast and secure payouts, and claim your welcome bonus up to CA$7000 for real-money play in Canada.\">\n<link rel=\"canonical\"https://gamblezencasinoonline.com/en-ca/\">\n<link rel=\"alternate\" hreflang=\"en-CA\" href=\"/\">",
   "url": "gamblezencasinoonline.com",
   "template": "tupchiy",
   "language_code": "en",
@@ -94,7 +94,7 @@
       }
     ]
   },
-  "hero_title": null,
+  "hero_title": "You can get",
   "hero_subtitle": "500% up to C$5450 + 350 FS",
   "hero_badge": "Welcome Bonus",
   "cta_text": "Play now",
@@ -102,7 +102,7 @@
   "tagline": null,
   "features_list": null,
   "footer_text": null,
-  "popup_text": "Get bonus",
+  "popup_text": null,
   "gpt_prompt": null,
   "subdomains": null,
   "redirect_site": null,
@@ -315,8 +315,8 @@
       "submenu": []
     }
   ],
-  "_generated_at": "2026-03-30T13:43:30.272Z",
+  "_generated_at": "2026-03-30T14:06:05.076Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-03-30T13:43:30.794Z",
-  "_deploy_trigger": "sjpbf"
+  "_last_deploy": "2026-03-30T14:06:05.643Z",
+  "_deploy_trigger": "11fdw9"
 }
