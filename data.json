@@ -99,10 +99,10 @@
   "hero_badge": "Welcome Bonus",
   "cta_text": "Play now",
   "accent_color": "#d4af37",
-  "tagline": null,
-  "features_list": null,
+  "tagline": "111111",
+  "features_list": "222222",
   "footer_text": null,
-  "popup_text": null,
+  "popup_text": "Get bonus 500% up to C$5450 + 350 FS",
   "gpt_prompt": null,
   "subdomains": null,
   "redirect_site": null,
@@ -119,7 +119,7 @@
   "bonus_title": "100% up to CA$7000",
   "get_bonus_btn_text": "Get Bonus",
   "color_main_btn_text": "#ffffff",
-  "redirect_link": null,
+  "redirect_link": "https://visquick.com/go",
   "logo": {
     "id": 24,
     "name": "logo.webp",
@@ -315,8 +315,8 @@
       "submenu": []
     }
   ],
-  "_generated_at": "2026-03-30T14:06:05.076Z",
+  "_generated_at": "2026-03-30T14:17:13.310Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-03-30T14:06:05.643Z",
-  "_deploy_trigger": "11fdw9"
+  "_last_deploy": "2026-03-30T14:17:13.937Z",
+  "_deploy_trigger": "dkrmho"
 }
