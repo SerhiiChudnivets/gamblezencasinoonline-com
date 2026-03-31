@@ -1,7 +1,7 @@
 {
   "name": "gamblezencasinoonline.com",
   "site_name": "Gamblezen Casino Canada | Welcome bonus up to CAD$5450",
-  "html_head": "<meta name=\"description\" content=\"Join Gamblezen Casino! Enjoy 7,500+ games, live dealers, fast and secure payouts, and claim your welcome bonus up to CA$7000 for real-money play in Canada.\">\n<link rel=\"canonical\" href=\"https://gamblezencasinoonline.com/en-ca/\">\n<link rel=\"alternate\" href=\"/\" hreflang=\"en-CA\">",
+  "html_head": "<meta name=\"description\" content=\"Join Gamblezen Casino! Enjoy 7,500+ games, live dealers, fast and secure payouts, and claim your welcome bonus up to CA$7000 for real-money play in Canada.\">\n<link rel=\"canonical\" href=\"https://gamblezencasinoonline.com/en-ca/\">\n<link rel=\"alternate\" href=\"https://gamblezencasinoonline.com/\" hreflang=\"en-CA\">",
   "url": "gamblezencasinoonline.com",
   "template": "tupchiy",
   "language_code": "en",
@@ -336,8 +336,8 @@
       "submenu": []
     }
   ],
-  "_generated_at": "2026-03-31T05:05:33.559Z",
+  "_generated_at": "2026-03-31T05:09:57.709Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-03-31T05:05:34.057Z",
-  "_deploy_trigger": "4qciox"
+  "_last_deploy": "2026-03-31T05:09:58.174Z",
+  "_deploy_trigger": "y1qlcn"
 }
