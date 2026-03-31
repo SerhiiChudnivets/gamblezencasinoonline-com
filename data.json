@@ -131,7 +131,7 @@
   "secondary_background": "#1e1c59",
   "button_background": "#ffe600",
   "button_text": "#ffffff",
-  "text_color": "#000000",
+  "text_color": "#fff7f7",
   "color_highlight_text": "#ffffff",
   "faq_title": "Frequently Asked Questions About Gamblezen Casino",
   "login_text": "Login",
@@ -336,8 +336,8 @@
       "submenu": []
     }
   ],
-  "_generated_at": "2026-03-31T04:34:10.109Z",
+  "_generated_at": "2026-03-31T04:39:35.102Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-03-31T04:34:10.633Z",
-  "_deploy_trigger": "wb1fd"
+  "_last_deploy": "2026-03-31T04:39:35.609Z",
+  "_deploy_trigger": "6mr1ta"
 }
