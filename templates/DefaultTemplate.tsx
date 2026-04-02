@@ -31,6 +31,8 @@ interface PageData {
   cta_link?: string
   sections?: ContentSection[]
   template?: string
+  faq_title?: string
+  FAQ?: { id?: number; question: string; answer: string }[]
 }
 
 interface SiteData {
@@ -214,6 +216,39 @@ const styles = `
     color: #606060;
   }
 
+  .default-faq {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+  }
+
+  .default-faq h2 {
+    font-size: 2rem;
+    color: #ffd700;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .default-faq-item {
+    background: #1e1e3a;
+    border: 1px solid #2a2a4a;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .default-faq-question {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #ffd700;
+    margin-bottom: 0.75rem;
+  }
+
+  .default-faq-answer {
+    color: #a0a0a0;
+    line-height: 1.7;
+  }
+
   @media (max-width: 768px) {
     .default-hero h1 { font-size: 2rem; }
     .default-section-grid { grid-template-columns: 1fr; }
@@ -278,6 +313,18 @@ export default function DefaultTemplate({ page, site }: { page: PageData; site: 
           </div>
         </section>
       ))}
+
+      {page.FAQ && page.FAQ.length > 0 && (
+        <div className="default-faq">
+          {page.faq_title && <h2>{page.faq_title}</h2>}
+          {page.FAQ.map((item, index) => (
+            <div key={item.id || index} className="default-faq-item">
+              <div className="default-faq-question">{item.question}</div>
+              <div className="default-faq-answer">{item.answer}</div>
+            </div>
+          ))}
+        </div>
+      )}
 
       <footer className="default-footer">
         {site.footer_text || `© ${new Date().getFullYear()} ${siteName}. All rights reserved.`}

@@ -89,21 +89,13 @@ export default function DynamicPage({ page, site }: { page: PageData; site: Site
     }
   }, [page.html_head]);
 
-  const Template = templates[page.template || 'default'] || templates.default
+  const Template = (templates[page.template || 'default'] || templates.default) as React.ComponentType<{
+    page: PageData
+    site: SiteData
+  }>
 
   return (
     <>
-      <Head>
-        <title>{page.seo_title || page.title} | {siteName}</title>
-        <meta name="description" content={page.seo_description || ''} />
-        <meta name="robots" content={site.allow_indexing ? 'index,follow' : 'noindex,nofollow'} />
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-      </Head>
-
       <Template page={page} site={site} />
     </>
   )

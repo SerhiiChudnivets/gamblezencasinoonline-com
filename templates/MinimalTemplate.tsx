@@ -31,6 +31,8 @@ interface PageData {
   cta_link?: string
   sections?: ContentSection[]
   template?: string
+  faq_title?: string
+  FAQ?: { id?: number; question: string; answer: string }[]
 }
 
 interface SiteData {
@@ -220,6 +222,35 @@ const styles = `
     font-size: 0.875rem;
   }
 
+  .minimal-faq {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+  }
+
+  .minimal-faq h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    letter-spacing: -0.02em;
+  }
+
+  .minimal-faq-item {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .minimal-faq-question {
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 0.5rem;
+  }
+
+  .minimal-faq-answer {
+    color: #555;
+    line-height: 1.75;
+  }
+
   @media (max-width: 768px) {
     .minimal-title { font-size: 1.75rem; }
     .minimal-main { padding: 2rem 1.5rem 4rem; }
@@ -273,6 +304,17 @@ export default function MinimalTemplate({ page, site }: { page: PageData; site: 
         {page.cta_text && page.cta_link && (
           <div style={{marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid #eee'}}>
             <a href={page.cta_link} className="minimal-link">{page.cta_text}</a>
+          </div>
+        )}
+        {page.FAQ && page.FAQ.length > 0 && (
+          <div className="minimal-faq">
+            {page.faq_title && <h2>{page.faq_title}</h2>}
+            {page.FAQ.map((item, index) => (
+              <div key={item.id || index} className="minimal-faq-item">
+                <div className="minimal-faq-question">{item.question}</div>
+                <div className="minimal-faq-answer">{item.answer}</div>
+              </div>
+            ))}
           </div>
         )}
       </main>

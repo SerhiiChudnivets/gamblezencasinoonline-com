@@ -31,6 +31,8 @@ interface PageData {
   cta_link?: string
   sections?: ContentSection[]
   template?: string
+  faq_title?: string
+  FAQ?: { id?: number; question: string; answer: string }[]
 }
 
 interface SiteData {
@@ -251,6 +253,35 @@ const styles = `
     font-family: 'Space Grotesk', sans-serif;
   }
 
+  .blog-faq {
+    margin: 3rem 0;
+  }
+
+  .blog-faq h2 {
+    font-size: 1.75rem;
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  .blog-faq-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  .blog-faq-question {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  .blog-faq-answer {
+    color: #555;
+    line-height: 1.7;
+  }
+
   @media (max-width: 768px) {
     .blog-article h1 { font-size: 1.75rem; }
     .blog-content { font-size: 1rem; }
@@ -308,6 +339,17 @@ export default function BlogTemplate({ page, site }: { page: PageData; site: Sit
         {page.cta_text && page.cta_link && (
           <div style={{textAlign: 'center', marginTop: '3rem'}}>
             <a href={page.cta_link} className="blog-cta">{page.cta_text}</a>
+          </div>
+        )}
+        {page.FAQ && page.FAQ.length > 0 && (
+          <div className="blog-faq">
+            {page.faq_title && <h2>{page.faq_title}</h2>}
+            {page.FAQ.map((item, index) => (
+              <div key={item.id || index} className="blog-faq-item">
+                <div className="blog-faq-question">{item.question}</div>
+                <div className="blog-faq-answer">{item.answer}</div>
+              </div>
+            ))}
           </div>
         )}
       </article>

@@ -31,6 +31,8 @@ interface PageData {
   cta_link?: string
   sections?: ContentSection[]
   template?: string
+  faq_title?: string
+  FAQ?: { id?: number; question: string; answer: string }[]
 }
 
 interface SiteData {
@@ -268,6 +270,42 @@ const styles = `
     font-size: 0.875rem;
   }
 
+  .fullwidth-faq {
+    padding: 6rem 3rem;
+    background: #111;
+  }
+
+  .fullwidth-faq-inner {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .fullwidth-faq h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .fullwidth-faq-item {
+    background: #1a1a1a;
+    border: 1px solid #222;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .fullwidth-faq-question {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0.75rem;
+  }
+
+  .fullwidth-faq-answer {
+    color: rgba(255,255,255,0.6);
+    line-height: 1.7;
+  }
+
   @media (max-width: 1024px) {
     .fullwidth-hero h1 { font-size: 3rem; }
     .fullwidth-hero-content { max-width: 70%; }
@@ -352,6 +390,20 @@ export default function FullWidthTemplate({ page, site }: { page: PageData; site
           </div>
         </section>
       ))}
+
+      {page.FAQ && page.FAQ.length > 0 && (
+        <section className="fullwidth-faq">
+          <div className="fullwidth-faq-inner">
+            {page.faq_title && <h2>{page.faq_title}</h2>}
+            {page.FAQ.map((item, index) => (
+              <div key={item.id || index} className="fullwidth-faq-item">
+                <div className="fullwidth-faq-question">{item.question}</div>
+                <div className="fullwidth-faq-answer">{item.answer}</div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <footer className="fullwidth-footer">
         <p className="fullwidth-footer-text">
