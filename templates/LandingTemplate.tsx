@@ -74,8 +74,6 @@ interface PageData {
   [key: string]: any
   cta_link?: string
   sections?: ContentSection[]
-  template?: string
-  faq_title?: string
   FAQ?: { id?: number; question: string; answer: string }[]
 }
 
