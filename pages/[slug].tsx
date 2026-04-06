@@ -70,25 +70,6 @@ const templates = {
 export default function DynamicPage({ page, site }: { page: PageData; site: SiteData }) {
   const siteName = site.site_name || site.name
 
-  useEffect(() => {
-    if (page.html_head && typeof document !== 'undefined') {
-      const temp = document.createElement('div');
-      temp.innerHTML = page.html_head;
-      
-      Array.from(temp.children).forEach((child) => {
-        const clone = child.cloneNode(true) as HTMLElement;
-        clone.setAttribute('data-injected-from-strapi-page', 'true');
-        document.head.appendChild(clone);
-      });
-      
-      return () => {
-        document.querySelectorAll('[data-injected-from-strapi-page="true"]').forEach((el) => {
-          el.remove();
-        });
-      };
-    }
-  }, [page.html_head]);
-
   const Template = (templates[page.template || 'default'] || templates.default) as React.ComponentType<{
     page: PageData
     site: SiteData
