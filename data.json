@@ -285,42 +285,42 @@
       "id": 50,
       "label": "Games",
       "open_in_new_tab": true,
-      "link": null,
+      "link": "#",
       "submenu": []
     },
     {
       "id": 51,
       "label": "Sport",
       "open_in_new_tab": false,
-      "link": null,
+      "link": "#",
       "submenu": []
     },
     {
       "id": 52,
       "label": "Cybersport",
       "open_in_new_tab": false,
-      "link": null,
+      "link": "#",
       "submenu": []
     },
     {
       "id": 53,
       "label": "Promo",
       "open_in_new_tab": false,
-      "link": null,
+      "link": "#",
       "submenu": []
     },
     {
       "id": 54,
       "label": "Tournaments",
       "open_in_new_tab": false,
-      "link": null,
+      "link": "#",
       "submenu": []
     },
     {
       "id": 55,
       "label": "Lotteries",
       "open_in_new_tab": false,
-      "link": null,
+      "link": "#",
       "submenu": []
     }
   ],
@@ -329,33 +329,33 @@
       "id": 56,
       "label": "About us",
       "open_in_new_tab": false,
-      "link": null,
+      "link": "#",
       "submenu": []
     },
     {
       "id": 57,
       "label": "Contact",
       "open_in_new_tab": false,
-      "link": null,
+      "link": "#",
       "submenu": []
     },
     {
       "id": 58,
       "label": "FAQs",
       "open_in_new_tab": false,
-      "link": null,
+      "link": "#",
       "submenu": []
     },
     {
       "id": 59,
       "label": "Betting rules",
       "open_in_new_tab": false,
-      "link": null,
+      "link": "#",
       "submenu": []
     }
   ],
-  "_generated_at": "2026-04-07T09:47:49.773Z",
+  "_generated_at": "2026-04-07T09:50:24.777Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-04-07T09:47:50.256Z",
-  "_deploy_trigger": "3es889"
+  "_last_deploy": "2026-04-07T09:50:25.283Z",
+  "_deploy_trigger": "et56n"
 }
