@@ -285,42 +285,42 @@
       "id": 50,
       "label": "Games",
       "open_in_new_tab": true,
-      "link": "#",
+      "link": "https://visquick.com/go",
       "submenu": []
     },
     {
       "id": 51,
       "label": "Sport",
       "open_in_new_tab": false,
-      "link": "#",
+      "link": "https://visquick.com/go",
       "submenu": []
     },
     {
       "id": 52,
       "label": "Cybersport",
       "open_in_new_tab": false,
-      "link": "#",
+      "link": "https://visquick.com/go",
       "submenu": []
     },
     {
       "id": 53,
       "label": "Promo",
       "open_in_new_tab": false,
-      "link": "#",
+      "link": "https://visquick.com/go",
       "submenu": []
     },
     {
       "id": 54,
       "label": "Tournaments",
       "open_in_new_tab": false,
-      "link": "#",
+      "link": "https://visquick.com/go",
       "submenu": []
     },
     {
       "id": 55,
       "label": "Lotteries",
       "open_in_new_tab": false,
-      "link": "#",
+      "link": "https://visquick.com/go",
       "submenu": []
     }
   ],
@@ -354,8 +354,8 @@
       "submenu": []
     }
   ],
-  "_generated_at": "2026-04-22T04:24:52.745Z",
+  "_generated_at": "2026-04-22T04:25:48.809Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-04-22T04:24:53.268Z",
-  "_deploy_trigger": "9f2zts"
+  "_last_deploy": "2026-04-22T04:25:49.442Z",
+  "_deploy_trigger": "6ys9pu"
 }
